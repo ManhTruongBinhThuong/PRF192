@@ -5,8 +5,7 @@ int main(){
 	int thoiGian;
 	float tong;
 	printf("nhap quang duong (km): ");
-	scanf("%f", &soKm);
-	if (soKm <= 0){
+	if (scanf("%f", &soKm) != 1 || soKm <= 0 ){
 		printf("nhap sai, dung chuong trinh\n");
 		return 0;
  	}
@@ -24,5 +23,11 @@ int main(){
 		tong = money + (thoiGian - 5) * 1000;
 	}
 	printf("Tong tien taxi: %.0f \n", tong);
-	return 0;
+	return 0;	
 }
+
+
+
+
+
+
