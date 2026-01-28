@@ -5,7 +5,6 @@ int main(){
 	int thoiGian;
 	float tong;
 	printf("nhap quang duong (km): ");
-	scanf("%f", &soKm);
 	if (scanf(soKm <= 0) != 1 || soKm <= 0 ){
 		printf("nhap sai, dung chuong trinh\n");
 		return 0;
