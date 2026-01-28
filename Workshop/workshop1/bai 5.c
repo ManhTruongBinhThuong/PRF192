@@ -5,7 +5,11 @@ int main(){
 	int thoiGian;
 	float tong;
 	printf("nhap quang duong (km): ");
+<<<<<<< HEAD
 	if (scanf("%f", &soKm) != 1 || soKm <= 0 ){
+=======
+	if (scanf("&f", &soKm) != 1 || soKm <= 0 ){
+>>>>>>> 1f26548f0f5239550ac8fc730f4e139c3bad14ad
 		printf("nhap sai, dung chuong trinh\n");
 		return 0;
  	}
@@ -23,6 +27,7 @@ int main(){
 		tong = money + (thoiGian - 5) * 1000;
 	}
 	printf("Tong tien taxi: %.0f \n", tong);
+<<<<<<< HEAD
 	return 0;	
 }
 
@@ -31,3 +36,7 @@ int main(){
 
 
 
+=======
+	return 0;
+}
+>>>>>>> 1f26548f0f5239550ac8fc730f4e139c3bad14ad
